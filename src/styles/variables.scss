@@ -1,0 +1,11 @@
+$bgcolor: #F7F7F7;
+$headerH: 60px;
+$footerH: 90px;
+
+// the :export directive is the magic sauce for webpack
+// https://www.bluematador.com/blog/how-to-share-variables-between-js-and-sass
+:export {
+  bgcolor: $bgcolor;
+  headerH: $headerH;
+  footerH: $footerH;
+}
